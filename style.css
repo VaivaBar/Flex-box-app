@@ -1,0 +1,46 @@
+* {
+box-sizing: border-box;
+}
+
+
+.app__header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #e5ee68;
+height: 80px;
+font-size: larger;
+font: bold;
+}
+
+.button {
+padding: 6px;
+background-color: #e4c69e7c;
+}
+
+.settings {
+padding: 6px;
+background-color: #e4c69e7c;    
+}
+
+.img {
+float: left;
+}
+
+.footer__button {
+position: relative;
+}
+
+.footer {
+display: flex;
+justify-content: space-between;
+padding: 20px;
+background-color: #e5ee68;
+}
+
+.home {
+width: 25px;
+position: absolute;
+bottom: 12px;
+left: 10px;
+}
